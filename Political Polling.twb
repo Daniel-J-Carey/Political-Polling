@@ -1,0 +1,1403 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0208.0337                               -->
+<workbook original-version='18.1' source-build='2024.1.0 (20241.24.0208.0337)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='799pc' inline='true' name='federated.1p7kebn0wzkpc517owb5r1r8zi5z' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='799pc' name='textscan.1szwftb19eq80p18k6ixt0s01759'>
+            <connection class='textscan' directory='C:/Users/danie/OneDrive/Documents/SB5001 Assignment' filename='799pc.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1szwftb19eq80p18k6ixt0s01759' name='799pc.csv' table='[799pc#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IE' separator=','>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='string' name='Pollster' ordinal='1' />
+            <column datatype='integer' name='Sample size' ordinal='2' />
+            <column datatype='real' name='Fianna Fáil' ordinal='3' />
+            <column datatype='real' name='Fine Gael' ordinal='4' />
+            <column datatype='integer' name='Sinn Féin' ordinal='5' />
+            <column datatype='real' name='Labour' ordinal='6' />
+            <column datatype='real' name='Green Party' ordinal='7' />
+            <column datatype='real' name='Independents/Other' ordinal='8' />
+            <column datatype='real' name='Social Democrats' ordinal='9' />
+            <column datatype='real' name='Solidarity-People Before Profit' ordinal='10' />
+            <column datatype='real' name='Aontú' ordinal='11' />
+            <column datatype='real' name='Sinn Féin (estimate)' ordinal='12' />
+            <column datatype='real' name='SF lower' ordinal='13' />
+            <column datatype='real' name='SF upper' ordinal='14' />
+            <column datatype='real' name='Fine Gael (estimate)' ordinal='15' />
+            <column datatype='real' name='FG lower' ordinal='16' />
+            <column datatype='real' name='FG upper' ordinal='17' />
+            <column datatype='real' name='Fianna Fáil (estimate)' ordinal='18' />
+            <column datatype='real' name='FF lower' ordinal='19' />
+            <column datatype='real' name='FF upper' ordinal='20' />
+            <column datatype='real' name='Labour (estimate)' ordinal='21' />
+            <column datatype='real' name='Lab lower' ordinal='22' />
+            <column datatype='real' name='Lab upper' ordinal='23' />
+            <column datatype='real' name='Green Party (estimate)' ordinal='24' />
+            <column datatype='real' name='GP lower' ordinal='25' />
+            <column datatype='real' name='GP upper' ordinal='26' />
+            <column datatype='real' name='Social Democrats (estimate)' ordinal='27' />
+            <column datatype='real' name='SocDem lower' ordinal='28' />
+            <column datatype='real' name='SocDem upper' ordinal='29' />
+            <column datatype='real' name='Solidarity-People Before Profit (estimate)' ordinal='30' />
+            <column datatype='real' name='S-PBP lower' ordinal='31' />
+            <column datatype='real' name='S-PBP upper' ordinal='32' />
+            <column datatype='real' name='Aontú (estimate)' ordinal='33' />
+            <column datatype='real' name='Aon lower' ordinal='34' />
+            <column datatype='real' name='Aon upper' ordinal='35' />
+            <column datatype='real' name='Independents/Other (estimate)' ordinal='36' />
+            <column datatype='real' name='Ind/Oth lower' ordinal='37' />
+            <column datatype='real' name='Ind/Oth upper' ordinal='38' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1szwftb19eq80p18k6ixt0s01759' name='799pc.csv' table='[799pc#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IE' separator=','>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='string' name='Pollster' ordinal='1' />
+            <column datatype='integer' name='Sample size' ordinal='2' />
+            <column datatype='real' name='Fianna Fáil' ordinal='3' />
+            <column datatype='real' name='Fine Gael' ordinal='4' />
+            <column datatype='integer' name='Sinn Féin' ordinal='5' />
+            <column datatype='real' name='Labour' ordinal='6' />
+            <column datatype='real' name='Green Party' ordinal='7' />
+            <column datatype='real' name='Independents/Other' ordinal='8' />
+            <column datatype='real' name='Social Democrats' ordinal='9' />
+            <column datatype='real' name='Solidarity-People Before Profit' ordinal='10' />
+            <column datatype='real' name='Aontú' ordinal='11' />
+            <column datatype='real' name='Sinn Féin (estimate)' ordinal='12' />
+            <column datatype='real' name='SF lower' ordinal='13' />
+            <column datatype='real' name='SF upper' ordinal='14' />
+            <column datatype='real' name='Fine Gael (estimate)' ordinal='15' />
+            <column datatype='real' name='FG lower' ordinal='16' />
+            <column datatype='real' name='FG upper' ordinal='17' />
+            <column datatype='real' name='Fianna Fáil (estimate)' ordinal='18' />
+            <column datatype='real' name='FF lower' ordinal='19' />
+            <column datatype='real' name='FF upper' ordinal='20' />
+            <column datatype='real' name='Labour (estimate)' ordinal='21' />
+            <column datatype='real' name='Lab lower' ordinal='22' />
+            <column datatype='real' name='Lab upper' ordinal='23' />
+            <column datatype='real' name='Green Party (estimate)' ordinal='24' />
+            <column datatype='real' name='GP lower' ordinal='25' />
+            <column datatype='real' name='GP upper' ordinal='26' />
+            <column datatype='real' name='Social Democrats (estimate)' ordinal='27' />
+            <column datatype='real' name='SocDem lower' ordinal='28' />
+            <column datatype='real' name='SocDem upper' ordinal='29' />
+            <column datatype='real' name='Solidarity-People Before Profit (estimate)' ordinal='30' />
+            <column datatype='real' name='S-PBP lower' ordinal='31' />
+            <column datatype='real' name='S-PBP upper' ordinal='32' />
+            <column datatype='real' name='Aontú (estimate)' ordinal='33' />
+            <column datatype='real' name='Aon lower' ordinal='34' />
+            <column datatype='real' name='Aon upper' ordinal='35' />
+            <column datatype='real' name='Independents/Other (estimate)' ordinal='36' />
+            <column datatype='real' name='Ind/Oth lower' ordinal='37' />
+            <column datatype='real' name='Ind/Oth upper' ordinal='38' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IE&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pollster</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pollster]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Pollster</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sample size</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sample size]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Sample size</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fianna Fáil</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fianna Fáil]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Fianna Fáil</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fine Gael</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fine Gael]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Fine Gael</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sinn Féin</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sinn Féin]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Sinn Féin</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Labour</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Labour]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Labour</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Green Party</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Green Party]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Green Party</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Independents/Other</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Independents/Other]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Independents/Other</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Social Democrats</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Social Democrats]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Social Democrats</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Solidarity-People Before Profit</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Solidarity-People Before Profit]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Solidarity-People Before Profit</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aontú</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Aontú]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Aontú</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sinn Féin (estimate)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sinn Féin (estimate)]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Sinn Féin (estimate)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SF lower</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SF lower]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>SF lower</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SF upper</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SF upper]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>SF upper</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fine Gael (estimate)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fine Gael (estimate)]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Fine Gael (estimate)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FG lower</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FG lower]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>FG lower</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FG upper</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FG upper]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>FG upper</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fianna Fáil (estimate)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fianna Fáil (estimate)]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Fianna Fáil (estimate)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FF lower</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FF lower]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>FF lower</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FF upper</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FF upper]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>FF upper</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Labour (estimate)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Labour (estimate)]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Labour (estimate)</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lab lower</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Lab lower]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Lab lower</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lab upper</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Lab upper]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Lab upper</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Green Party (estimate)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Green Party (estimate)]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Green Party (estimate)</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GP lower</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GP lower]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>GP lower</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GP upper</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GP upper]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>GP upper</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Social Democrats (estimate)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Social Democrats (estimate)]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Social Democrats (estimate)</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SocDem lower</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SocDem lower]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>SocDem lower</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SocDem upper</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SocDem upper]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>SocDem upper</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Solidarity-People Before Profit (estimate)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Solidarity-People Before Profit (estimate)]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Solidarity-People Before Profit (estimate)</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S-PBP lower</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[S-PBP lower]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>S-PBP lower</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S-PBP upper</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[S-PBP upper]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>S-PBP upper</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aontú (estimate)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Aontú (estimate)]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Aontú (estimate)</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aon lower</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Aon lower]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Aon lower</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aon upper</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Aon upper]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Aon upper</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Independents/Other (estimate)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Independents/Other (estimate)]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Independents/Other (estimate)</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ind/Oth lower</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ind/Oth lower]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Ind/Oth lower</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ind/Oth upper</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ind/Oth upper]</local-name>
+            <parent-name>[799pc.csv]</parent-name>
+            <remote-alias>Ind/Oth upper</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[Aontú (estimate)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Fianna Fáil (estimate)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Fine Gael (estimate)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Green Party (estimate)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Independents/Other (estimate)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Labour (estimate)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Sinn Féin (estimate)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Social Democrats (estimate)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Solidarity-People Before Profit (estimate)]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='799pc.csv' datatype='table' name='[__tableau_internal_object_id__].[799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5]' role='measure' type='quantitative' />
+      <column-instance column='[Aontú (estimate)]' derivation='Sum' name='[sum:Aontú (estimate):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fianna Fáil (estimate)]' derivation='Sum' name='[sum:Fianna Fáil (estimate):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fine Gael (estimate)]' derivation='Sum' name='[sum:Fine Gael (estimate):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Green Party (estimate)]' derivation='Sum' name='[sum:Green Party (estimate):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Independents/Other (estimate)]' derivation='Sum' name='[sum:Independents/Other (estimate):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Labour (estimate)]' derivation='Sum' name='[sum:Labour (estimate):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sinn Féin (estimate)]' derivation='Sum' name='[sum:Sinn Féin (estimate):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Social Democrats (estimate)]' derivation='Sum' name='[sum:Social Democrats (estimate):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Solidarity-People Before Profit (estimate)]' derivation='Sum' name='[sum:Solidarity-People Before Profit (estimate):qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' palette='tableau20_10_0' type='palette'>
+            <map to='#2ca02c'>
+              <bucket>&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Sinn Féin (estimate):qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z]&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Independents/Other (estimate):qk]&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Solidarity-People Before Profit (estimate):qk]&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Social Democrats (estimate):qk]&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Fianna Fáil (estimate):qk]&quot;</bucket>
+            </map>
+            <map to='#aec7e8'>
+              <bucket>&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Fine Gael (estimate):qk]&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Labour (estimate):qk]&quot;</bucket>
+            </map>
+            <map to='#dbdb8d'>
+              <bucket>&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Green Party (estimate):qk]&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Aontú (estimate):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Ireland&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='799pc.csv' id='799pc.csv_1F309F17F40F4BF0AD318D1A682E5DE5'>
+            <properties context=''>
+              <relation connection='textscan.1szwftb19eq80p18k6ixt0s01759' name='799pc.csv' table='[799pc#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IE' separator=','>
+                  <column datatype='date' name='Date' ordinal='0' />
+                  <column datatype='string' name='Pollster' ordinal='1' />
+                  <column datatype='integer' name='Sample size' ordinal='2' />
+                  <column datatype='real' name='Fianna Fáil' ordinal='3' />
+                  <column datatype='real' name='Fine Gael' ordinal='4' />
+                  <column datatype='integer' name='Sinn Féin' ordinal='5' />
+                  <column datatype='real' name='Labour' ordinal='6' />
+                  <column datatype='real' name='Green Party' ordinal='7' />
+                  <column datatype='real' name='Independents/Other' ordinal='8' />
+                  <column datatype='real' name='Social Democrats' ordinal='9' />
+                  <column datatype='real' name='Solidarity-People Before Profit' ordinal='10' />
+                  <column datatype='real' name='Aontú' ordinal='11' />
+                  <column datatype='real' name='Sinn Féin (estimate)' ordinal='12' />
+                  <column datatype='real' name='SF lower' ordinal='13' />
+                  <column datatype='real' name='SF upper' ordinal='14' />
+                  <column datatype='real' name='Fine Gael (estimate)' ordinal='15' />
+                  <column datatype='real' name='FG lower' ordinal='16' />
+                  <column datatype='real' name='FG upper' ordinal='17' />
+                  <column datatype='real' name='Fianna Fáil (estimate)' ordinal='18' />
+                  <column datatype='real' name='FF lower' ordinal='19' />
+                  <column datatype='real' name='FF upper' ordinal='20' />
+                  <column datatype='real' name='Labour (estimate)' ordinal='21' />
+                  <column datatype='real' name='Lab lower' ordinal='22' />
+                  <column datatype='real' name='Lab upper' ordinal='23' />
+                  <column datatype='real' name='Green Party (estimate)' ordinal='24' />
+                  <column datatype='real' name='GP lower' ordinal='25' />
+                  <column datatype='real' name='GP upper' ordinal='26' />
+                  <column datatype='real' name='Social Democrats (estimate)' ordinal='27' />
+                  <column datatype='real' name='SocDem lower' ordinal='28' />
+                  <column datatype='real' name='SocDem upper' ordinal='29' />
+                  <column datatype='real' name='Solidarity-People Before Profit (estimate)' ordinal='30' />
+                  <column datatype='real' name='S-PBP lower' ordinal='31' />
+                  <column datatype='real' name='S-PBP upper' ordinal='32' />
+                  <column datatype='real' name='Aontú (estimate)' ordinal='33' />
+                  <column datatype='real' name='Aon lower' ordinal='34' />
+                  <column datatype='real' name='Aon upper' ordinal='35' />
+                  <column datatype='real' name='Independents/Other (estimate)' ordinal='36' />
+                  <column datatype='real' name='Ind/Oth lower' ordinal='37' />
+                  <column datatype='real' name='Ind/Oth upper' ordinal='38' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='799pc' name='federated.1p7kebn0wzkpc517owb5r1r8zi5z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p7kebn0wzkpc517owb5r1r8zi5z'>
+            <column datatype='real' name='[Aontú (estimate)]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Fine Gael (estimate)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Solidarity-People Before Profit (estimate)]' role='measure' type='quantitative' />
+            <column-instance column='[Aontú (estimate)]' derivation='Sum' name='[sum:Aontú (estimate):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Fine Gael (estimate)]' derivation='Sum' name='[sum:Fine Gael (estimate):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Solidarity-People Before Profit (estimate)]' derivation='Sum' name='[sum:Solidarity-People Before Profit (estimate):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Month-Trunc' name='[tmn:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Aontú (estimate):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Fine Gael (estimate):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[Multiple Values]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Solidarity-People Before Profit (estimate):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.1p7kebn0wzkpc517owb5r1r8zi5z].[Multiple Values] + [federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Solidarity-People Before Profit (estimate):qk])</rows>
+        <cols>[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[tmn:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{1E2D0353-D3A4-44FF-A53F-47DA14FB35D9}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='799pc' name='federated.1p7kebn0wzkpc517owb5r1r8zi5z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p7kebn0wzkpc517owb5r1r8zi5z'>
+            <column datatype='real' name='[Aontú (estimate)]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Fianna Fáil (estimate)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Fine Gael (estimate)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Green Party (estimate)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Independents/Other (estimate)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Labour (estimate)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sinn Féin (estimate)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Social Democrats (estimate)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Solidarity-People Before Profit (estimate)]' role='measure' type='quantitative' />
+            <column-instance column='[Aontú (estimate)]' derivation='Sum' name='[sum:Aontú (estimate):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Fianna Fáil (estimate)]' derivation='Sum' name='[sum:Fianna Fáil (estimate):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Fine Gael (estimate)]' derivation='Sum' name='[sum:Fine Gael (estimate):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Green Party (estimate)]' derivation='Sum' name='[sum:Green Party (estimate):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Independents/Other (estimate)]' derivation='Sum' name='[sum:Independents/Other (estimate):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Labour (estimate)]' derivation='Sum' name='[sum:Labour (estimate):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sinn Féin (estimate)]' derivation='Sum' name='[sum:Sinn Féin (estimate):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Social Democrats (estimate)]' derivation='Sum' name='[sum:Social Democrats (estimate):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Solidarity-People Before Profit (estimate)]' derivation='Sum' name='[sum:Solidarity-People Before Profit (estimate):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Month-Trunc' name='[tmn:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Aontú (estimate):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Fianna Fáil (estimate):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Fine Gael (estimate):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Green Party (estimate):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Independents/Other (estimate):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Labour (estimate):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Sinn Féin (estimate):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Social Democrats (estimate):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[sum:Solidarity-People Before Profit (estimate):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[Multiple Values]</rows>
+        <cols>[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[tmn:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{FED894C7-F126-48A2-AC41-F41073A1A887}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[:Measure Names]</field>
+            <field>[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[none:Pollster:nk]</field>
+            <field>[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[yr:Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2F01DA56-CD39-4078-BDDB-61F022193AB3}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[:Measure Names]</field>
+            <field>[federated.1p7kebn0wzkpc517owb5r1r8zi5z].[yr:Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7676D30A-10FB-481B-8991-541533BF8DA3}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      YII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      gg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
